@@ -9,6 +9,18 @@ namespace Ej2
     {
         static void Main(string[] args)
         {
+
+
+
+
+          
+            Console.WriteLine   (string.Format("{0:hh:mm:ss tt}", DateTime.Now));
+
+
+            Console.WriteLine( DateTime.Now.ToShortDateString());
+
+            Console.ReadKey();
         }
     }
 }
+
