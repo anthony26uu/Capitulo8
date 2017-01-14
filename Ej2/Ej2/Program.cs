@@ -14,13 +14,15 @@ namespace Ej2
 
 
           
-            Console.WriteLine   (string.Format("{0:hh:mm:ss tt}", DateTime.Now));
-
-
-            Console.WriteLine( DateTime.Now.ToShortDateString());
-
+            Console.WriteLine   ("Ingrese cadena ");
+            string caddena = Console.ReadLine();
+            Console.WriteLine("Ingrese espacios para justificar ");
+            int espacios = int.Parse(Console.ReadLine());
+            Console.WriteLine(caddena.PadLeft(espacios, ' '));
             Console.ReadKey();
         }
     }
 }
+
+
 
